@@ -1,0 +1,325 @@
+<project version="4">
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Triplet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="43" column="37" lean-forward="true" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
+              <folding>
+                <element signature="e#2209#2210#0" expanded="true" />
+                <element signature="e#2267#2268#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/out/production/untitled/Tests.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Tests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="792">
+              <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/src/Tests.java" />
+      <option value="$PROJECT_DIR$/src/myPackage/oo/ji.java" />
+      <option value="$PROJECT_DIR$/src/Triplet.java" />
+    </changedPaths>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="untitled" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="untitled" type="462c0819:PsiDirectoryNode" />
+              <item name="myPackage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled" type="462c0819:PsiDirectoryNode" />
+              <item name="report" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled" type="462c0819:PsiDirectoryNode" />
+              <item name="report" type="462c0819:PsiDirectoryNode" />
+              <item name="export" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="myPackage" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Tests - 2022.10.17 at 20h 22m 47s.xml">
+      <configuration name="Tests" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16428107" />
+      <window_info id="Structure" order="1" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Commit" order="3" />
+      <window_info id="Learn" order="4" />
+      <window_info id="Pull Requests" order="5" />
+      <window_info id="Space Code Reviews" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.3302696" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.32659316" />
+      <window_info anchor="bottom" id="TODO" order="4" />
+      <window_info anchor="bottom" id="Problems View" order="5" weight="0.32659316" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Build" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Services" order="10" show_stripe_button="false" />
+      <window_info anchor="right" id="Space Automation" order="0" />
+      <window_info anchor="right" id="Layout Validation" order="1" />
+    </layout>
+    <recentWindows>
+      <value>Run</value>
+      <value>Project</value>
+      <value>Problems View</value>
+      <value>Find</value>
+    </recentWindows>
+  </component>
+  <component name="Trusted.Project.Settings" hasCheckedIfOldProject="true" trusted="YES" />
+  <component name="WindowStateProjectService">
+    <state x="239" y="86" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1667970165115">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="239" y="86" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.816@0.0.1536.816" timestamp="1667970165115" />
+    <state width="1515" height="238" key="GridCell.Tab.0.bottom" timestamp="1670388285820">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1515" height="238" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1670388285820" />
+    <state width="1515" height="238" key="GridCell.Tab.0.center" timestamp="1670388285820">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1515" height="238" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1670388285820" />
+    <state width="1515" height="238" key="GridCell.Tab.0.left" timestamp="1670388285820">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1515" height="238" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1670388285820" />
+    <state width="1515" height="238" key="GridCell.Tab.0.right" timestamp="1670388285820">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1515" height="238" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1670388285820" />
+    <state x="349" y="148" key="IDE.errors.dialog" timestamp="1669408764490">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="349" y="148" key="IDE.errors.dialog/0.0.1536.816@0.0.1536.816" timestamp="1669408764490" />
+    <state x="277" y="68" key="SettingsEditor" timestamp="1669187811058">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="277" y="68" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1669187811058" />
+    <state x="498" y="320" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1666063344117">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="498" y="320" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.816@0.0.1536.816" timestamp="1666063344117" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/a" />
+    <entry file="file://$PROJECT_DIR$/report/export/myPackage/Statics/mutants/50/details.txt" />
+    <entry file="file://$PROJECT_DIR$/report/export/myPackage/Statics/mutants/0/myPackage.Statics.java" />
+    <entry file="file://$PROJECT_DIR$/report/export/myPackage/Statics/myPackage.Statics.txt" />
+    <entry file="file://$PROJECT_DIR$/out/production/untitled/myPackage/Statics.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/myPackage/oo/ji.java" />
+    <entry file="file://$PROJECT_DIR$/report/export/myPackage/Statics/mutants/26/myPackage.Statics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-330" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/export/myPackage/Statics/mutants/23/myPackage.Statics.java" />
+    <entry file="file://$PROJECT_DIR$/report/export/myPackage/Statics/mutants/22/myPackage.Statics.java" />
+    <entry file="file://$PROJECT_DIR$/report/export/myPackage/Statics/mutants/29/myPackage.Statics.java" />
+    <entry file="file://$PROJECT_DIR$/report/export/Triplet/mutants/75/Triplet.java" />
+    <entry file="file://$PROJECT_DIR$/src/myPackage/Statics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/export/Triplet/mutants/2/Triplet.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/export/Triplet/mutants/1/Triplet.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/export/Triplet/mutants/0/Triplet.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/export/Triplet/mutants/6/Triplet.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/export/Triplet/mutants/5/Triplet.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/export/Triplet/mutants/4/Triplet.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/export/Triplet/mutants/15/Triplet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/export/Triplet/mutants/14/Triplet.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/export/Triplet/mutants/13/Triplet.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/export/Triplet/mutants/41/Triplet.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/export/Triplet/mutants/26/Triplet.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/export/Triplet/mutants/12/Triplet.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/export/Triplet/mutants/99/Triplet.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/export/Triplet/mutants/52/Triplet.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/export/Triplet/mutants/50/Triplet.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/export/Triplet/mutants/63/Triplet.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/export/Triplet/mutants/65/Triplet.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/export/Triplet/mutants/103/Triplet.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/export/Triplet/mutants/57/Triplet.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/export/Triplet/mutants/59/Triplet.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/export/Triplet/mutants/61/Triplet.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/export/Triplet/mutants/102/Triplet.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/export/Triplet/mutants/51/Triplet.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/export/Triplet/mutants/53/Triplet.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Triplet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="43" column="37" lean-forward="true" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
+          <folding>
+            <element signature="e#2209#2210#0" expanded="true" />
+            <element signature="e#2267#2268#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/untitled/Tests.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

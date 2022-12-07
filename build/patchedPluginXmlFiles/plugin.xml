@@ -1,0 +1,30 @@
+<idea-plugin>
+  <version>1.0-SNAPSHOT</version>
+  <change-notes>Add change notes here.&lt;br&gt;
+      &lt;em&gt;most HTML tags may be used&lt;/em&gt;</change-notes>
+  <idea-version since-build="212.5457" until-build="212.*" />
+  <id>org.example.IntellijPlugin</id>
+  <name>Pitest Result Viewer</name>
+  <vendor email="chmiddle@calpoly.edu">Chris Middleton</vendor>
+  <description><![CDATA[This plugin helps display Pitest mutation testing results in the Intellij IDEA editor.<br>]]></description>
+  <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
+         on how to target different products -->
+  <depends>com.intellij.modules.platform</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+    <postStartupActivity implementation="Plugin" />
+    <!--
+        <annotator
+                language="JAVA"
+                implementationClass="Plugin"/>
+        -->
+    <codeInsight.lineMarkerProvider language="JAVA" implementationClass="Plugin" />
+    <codeInsight.parameterNameHints language="JAVA" implementationClass="Plugin" />
+  </extensions>
+  <applicationListeners>
+    <listener class="Plugin" topic="com.intellij.execution.ExecutionListener" />
+  </applicationListeners>
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
+</idea-plugin>

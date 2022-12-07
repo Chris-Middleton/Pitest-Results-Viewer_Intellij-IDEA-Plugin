@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Created-By: Gradle 7.1
+Build-JVM: 11.0.16.1 (Amazon.com Inc. 11.0.16.1+9-LTS)
+Version: 1.0-SNAPSHOT
+Build-Plugin: Gradle IntelliJ Plugin
+Build-Plugin-Version: 1.9.0
+Build-OS: Windows 11 10.0 amd64
+Build-SDK: IC-2021.2.3
+

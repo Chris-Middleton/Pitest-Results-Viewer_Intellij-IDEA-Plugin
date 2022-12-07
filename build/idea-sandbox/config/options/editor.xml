@@ -1,0 +1,11 @@
+<application>
+  <component name="EditorSettings">
+    <option name="languageBreadcrumbsMap">
+      <map>
+        <entry key="JAVA" value="true" />
+      </map>
+    </option>
+    <option name="SHOW_BREADCRUMBS_ABOVE" value="true" />
+    <option name="SHOW_BREADCRUMBS" value="false" />
+  </component>
+</application>

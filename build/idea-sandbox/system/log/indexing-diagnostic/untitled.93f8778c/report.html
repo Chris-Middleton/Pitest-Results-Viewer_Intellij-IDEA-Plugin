@@ -1,0 +1,102 @@
+<html><head><title>Indexing diagnostics of &#39;untitled&#39;</title><style>body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table {
+  width: 80%;
+}
+
+table.two-columns td {
+  width: 50%;
+}
+
+th, td {
+  padding: 3px;
+}
+
+th {
+  background: lightgrey;
+}
+
+td {
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+        
+.stats-content {
+  margin-left: 20%;
+}
+
+.aggregate-report-content {
+  margin-left: 10%;
+}
+
+.navigation-bar {
+  width: 15%;
+  background-color: lightgrey;
+  position: fixed;
+  height: 100%;
+}
+
+div.navigation-bar ul {
+  list-style-type: none;
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+}
+
+div.navigation-bar ul li a, label {
+  display: block;
+  color: #000;
+  padding: 8px 20px;
+  text-decoration: none;
+}
+
+label input {
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+div.navigation-bar ul li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.minor-data {}
+
+.invisible {
+  display: none;
+}
+
+.jetbrains-logo {
+  width: 50%;
+  bottom: 5%;
+  position: absolute;
+  left: 20%;
+}
+
+.centered-text {
+  text-align: center;
+}
+
+.linkable-table-row:hover {
+  background: #f2f3ff;
+  outline: none;
+  cursor: pointer;
+}</style><script>document.addEventListener("DOMContentLoaded", () => {
+  const rows = document.getElementsByClassName("linkable-table-row")
+  for (const row of rows) {
+    const href = row.getAttribute("href")
+    row.addEventListener("click", () => {
+      window.open(href, "_blank");
+    });
+  }
+});</script></head><body><div class="aggregate-report-content"><h1>Project name</h1>untitled<div><h1>Indexing history</h1><table class="centered-text"><caption style="caption-side: bottom; text-align: right; font-size: 14px">Hover for details</caption><thead><tr><th colspan="6">Time</th><th colspan="6">Files</th><th rowspan="2">IDE</th></tr><tr><th>Started</th><th>Total</th><th>Scanning</th><th>Indexing</th><th>Content loading</th><th>Finished</th><th>Providers</th><th>Scanned</th><th>Shared indexes (w/o content loading)</th><th>Scheduled for indexing</th><th>Shared indexes (content loaded)</th><th>Total indexed (shared indexes included)</th></tr></thead><tbody><tr class="linkable-table-row" href="diagnostic-2022-12-07-10-18-56.733.html"><td><strong>On project open</strong><br/>10:18:44 07 Dec</td><td>11 s 963 ms</td><td>11 s 820 ms</td><td>0</td><td>0</td><td>10:18:56 07 Dec</td><td>10</td><td>43562</td><td>0</td><td>0</td><td>0</td><td>0</td><td>IC-212.5457.46</td></tr><tr class="linkable-table-row" href="diagnostic-2022-12-06-21-07-28.167.html"><td><strong>On project open</strong><br/>21:07:24 06 Dec</td><td>3 s 772 ms</td><td>3 s 717 ms</td><td>0</td><td>0</td><td>21:07:28 06 Dec</td><td>10</td><td>43562</td><td>0</td><td>0</td><td>0</td><td>0</td><td>IC-212.5457.46</td></tr><tr class="linkable-table-row" href="diagnostic-2022-12-06-21-04-57.408.html"><td><strong>On project open</strong><br/>21:04:53 06 Dec</td><td>3 s 681 ms</td><td>3 s 575 ms</td><td>0</td><td>0</td><td>21:04:57 06 Dec</td><td>10</td><td>43562</td><td>0</td><td>0</td><td>0</td><td>0</td><td>IC-212.5457.46</td></tr><tr class="linkable-table-row" href="diagnostic-2022-12-06-20-47-12.637.html"><td><strong>On project open</strong><br/>20:47:09 06 Dec</td><td>3 s 238 ms</td><td>3 s 35 ms</td><td>77 ms</td><td>5 ms</td><td>20:47:12 06 Dec</td><td>10</td><td>43562</td><td>0</td><td>1</td><td>0</td><td>1</td><td>IC-212.5457.46</td></tr><tr class="linkable-table-row" href="diagnostic-2022-12-06-20-45-08.371.html"><td><strong>On project open</strong><br/>20:45:04 06 Dec</td><td>4 s 110 ms</td><td>3 s 909 ms</td><td>78 ms</td><td>5 ms</td><td>20:45:08 06 Dec</td><td>10</td><td>43562</td><td>0</td><td>1</td><td>0</td><td>1</td><td>IC-212.5457.46</td></tr><tr class="linkable-table-row" href="diagnostic-2022-12-06-20-43-58.973.html"><td><strong>On project open</strong><br/>20:43:55 06 Dec</td><td>3 s 529 ms</td><td>3 s 317 ms</td><td>142 ms</td><td>4 ms</td><td>20:43:58 06 Dec</td><td>10</td><td>43562</td><td>0</td><td>1</td><td>0</td><td>1</td><td>IC-212.5457.46</td></tr><tr class="linkable-table-row" href="diagnostic-2022-12-06-20-42-29.477.html"><td><strong>On project open</strong><br/>20:42:25 06 Dec</td><td>4 s 380 ms</td><td>4 s 149 ms</td><td>0</td><td>0</td><td>20:42:29 06 Dec</td><td>10</td><td>43558</td><td>0</td><td>0</td><td>0</td><td>0</td><td>IC-212.5457.46</td></tr><tr class="linkable-table-row" href="diagnostic-2022-12-06-20-40-59.298.html"><td><strong>On project open</strong><br/>20:40:56 06 Dec</td><td>2 s 969 ms</td><td>2 s 861 ms</td><td>0</td><td>0</td><td>20:40:59 06 Dec</td><td>10</td><td>43558</td><td>0</td><td>0</td><td>0</td><td>0</td><td>IC-212.5457.46</td></tr><tr class="linkable-table-row" href="diagnostic-2022-12-06-20-40-07.248.html"><td><strong>On project open</strong><br/>20:40:03 06 Dec</td><td>4 s 58 ms</td><td>3 s 946 ms</td><td>0</td><td>0</td><td>20:40:07 06 Dec</td><td>10</td><td>43558</td><td>0</td><td>0</td><td>0</td><td>0</td><td>IC-212.5457.46</td></tr><tr class="linkable-table-row" href="diagnostic-2022-12-06-20-38-19.050.html"><td><strong>On project open</strong><br/>20:38:15 06 Dec</td><td>4 s 45 ms</td><td>3 s 904 ms</td><td>0</td><td>0</td><td>20:38:19 06 Dec</td><td>10</td><td>43558</td><td>0</td><td>0</td><td>0</td><td>0</td><td>IC-212.5457.46</td></tr><tr class="linkable-table-row" href="diagnostic-2022-12-06-20-36-59.845.html"><td><strong>On project open</strong><br/>20:36:56 06 Dec</td><td>3 s 836 ms</td><td>3 s 760 ms</td><td>0</td><td>0</td><td>20:36:59 06 Dec</td><td>10</td><td>43557</td><td>0</td><td>0</td><td>0</td><td>0</td><td>IC-212.5457.46</td></tr><tr class="linkable-table-row" href="diagnostic-2022-12-06-20-32-20.092.html"><td><strong>On project open</strong><br/>20:32:15 06 Dec</td><td>4 s 410 ms</td><td>3 s 474 ms</td><td>0</td><td>0</td><td>20:32:20 06 Dec</td><td>10</td><td>43557</td><td>0</td><td>0</td><td>0</td><td>0</td><td>IC-212.5457.46</td></tr><tr class="linkable-table-row" href="diagnostic-2022-12-06-20-30-58.136.html"><td><strong>On project open</strong><br/>20:30:54 06 Dec</td><td>3 s 880 ms</td><td>3 s 197 ms</td><td>0</td><td>0</td><td>20:30:58 06 Dec</td><td>10</td><td>43557</td><td>0</td><td>0</td><td>0</td><td>0</td><td>IC-212.5457.46</td></tr><tr class="linkable-table-row" href="diagnostic-2022-12-06-20-30-01.278.html"><td><strong>On project open</strong><br/>20:29:56 06 Dec</td><td>4 s 549 ms</td><td>3 s 178 ms</td><td>251 ms</td><td>2 ms</td><td>20:30:01 06 Dec</td><td>10</td><td>43557</td><td>0</td><td>2</td><td>0</td><td>2</td><td>IC-212.5457.46</td></tr><tr class="linkable-table-row" href="diagnostic-2022-12-06-20-28-49.423.html"><td><strong>On project open</strong><br/>20:28:45 06 Dec</td><td>3 s 754 ms</td><td>3 s 541 ms</td><td>0</td><td>0</td><td>20:28:49 06 Dec</td><td>10</td><td>43555</td><td>0</td><td>0</td><td>0</td><td>0</td><td>IC-212.5457.46</td></tr><tr class="linkable-table-row" href="diagnostic-2022-12-06-20-21-32.167.html"><td><strong>On project open</strong><br/>20:21:27 06 Dec</td><td>4 s 386 ms</td><td>4 s 61 ms</td><td>0</td><td>0</td><td>20:21:32 06 Dec</td><td>10</td><td>43555</td><td>0</td><td>0</td><td>0</td><td>0</td><td>IC-212.5457.46</td></tr><tr class="linkable-table-row" href="diagnostic-2022-12-06-20-11-26.506.html"><td><strong>On project open</strong><br/>20:11:22 06 Dec</td><td>4 s 405 ms</td><td>2 s 966 ms</td><td>0</td><td>0</td><td>20:11:26 06 Dec</td><td>10</td><td>43555</td><td>0</td><td>0</td><td>0</td><td>0</td><td>IC-212.5457.46</td></tr><tr class="linkable-table-row" href="diagnostic-2022-12-06-20-08-20.261.html"><td><strong>On project open</strong><br/>20:08:15 06 Dec</td><td>5 s 87 ms</td><td>4 s 882 ms</td><td>0</td><td>0</td><td>20:08:20 06 Dec</td><td>10</td><td>43555</td><td>0</td><td>0</td><td>0</td><td>0</td><td>IC-212.5457.46</td></tr><tr class="linkable-table-row" href="diagnostic-2022-12-06-20-06-55.914.html"><td><strong>On project open</strong><br/>20:06:51 06 Dec</td><td>4 s 763 ms</td><td>3 s 394 ms</td><td>0</td><td>0</td><td>20:06:55 06 Dec</td><td>10</td><td>43555</td><td>0</td><td>0</td><td>0</td><td>0</td><td>IC-212.5457.46</td></tr><tr class="linkable-table-row" href="diagnostic-2022-12-06-19-31-04.950.html"><td><strong>On project open</strong><br/>19:31:00 06 Dec</td><td>4 s 574 ms</td><td>4 s 297 ms</td><td>0</td><td>0</td><td>19:31:04 06 Dec</td><td>10</td><td>43555</td><td>0</td><td>0</td><td>0</td><td>0</td><td>IC-212.5457.46</td></tr></tbody></table></div></div></body></html>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<svg version="1.1" width="40px" height="40px" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+     viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
+<g transform="scale(0.9)">
+<path transform="translate(9, 3)" style="fill:#499c54;"
+      d="M0,24.5c-0.553,0-1-0.447-1-1c0-7.168,5.832-13,13-13h25c0.553,0,1,0.447,1,2s-0.447,1-1,1H13
+	c-6.065,0-11,4.935-11,11C2,24.053,1.553,24.5,1,24.5z"/>
+    <polygon transform="translate(2, 3)" style="fill:#499c54;" points="38,19.5 49,11.5 38,3.5 "/>
+    <path transform="translate(50, 55) rotate(180)" style="fill:#499c54;"
+          d="M0,24.5c-0.553,0-1-0.447-1-1c0-7.168,5.832-13,13-13h25c0.553,0,1,0.447,1,2s-0.447,1-1,1H13
+	c-6.065,0-11,4.935-11,11C2,24.053,1.553,24.5,1,24.5z"/>
+    <polygon transform="translate(58, 55) rotate(180)" style="fill:#499c54;" points="38,19.5 49,11.5 38,3.5 "/>
+</g>
+</svg>

@@ -1,0 +1,630 @@
+-- Mutation #0 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=add, methodDesc=(I)V], indexes=[7], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator], filename=Triplet.java, block=[0], lineNumber=20, description=Replaced integer addition with subtraction, testsInOrder=[]]
+Source:       this.set(this.a + x, this.b + x, this.c + x);
+Mutant:       this.set(this.a - x, this.b + x, this.c + x);
+
+-- Mutation #1 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=add, methodDesc=(I)V], indexes=[11], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator], filename=Triplet.java, block=[0], lineNumber=20, description=Replaced integer addition with subtraction, testsInOrder=[]]
+Source:       this.set(this.a + x, this.b + x, this.c + x);
+Mutant:       this.set(this.a + x, this.b - x, this.c + x);
+
+-- Mutation #10 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=mul, methodDesc=(I)V], indexes=[15], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator], filename=Triplet.java, block=[0], lineNumber=22, description=Replaced integer multiplication with division, testsInOrder=[]]
+Source:       this.set(this.a * x, this.b * x, this.c * x);
+Mutant:       this.set(this.a * x, this.b * x, this.c / x);
+
+-- Mutation #100 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=anyNotEq, methodDesc=(I)Z], indexes=[24], mutator=org.pitest.mutationtest.engine.gregor.mutators.returns.BooleanTrueReturnValsMutator], filename=Triplet.java, block=[5], lineNumber=36, description=replaced boolean return with true for Triplet::anyNotEq, testsInOrder=[]]
+Source:       return this.a != x || this.b != x || this.c != x;
+Mutant:       boolean var10000;
+              if (this.a == x && this.b == x && this.c == x) {
+                 var10000 = false;
+              } else {
+                 var10000 = true;
+              }
+
+              return true;
+
+-- Mutation #101 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=allLessThan, methodDesc=(I)Z], indexes=[22], mutator=org.pitest.mutationtest.engine.gregor.mutators.returns.BooleanTrueReturnValsMutator], filename=Triplet.java, block=[5], lineNumber=37, description=replaced boolean return with true for Triplet::allLessThan, testsInOrder=[]]
+Source:       return this.a < x && this.b < x && this.c < x;
+Mutant:       boolean var10000;
+              if (this.a < x && this.b < x && this.c < x) {
+                 var10000 = true;
+              } else {
+                 var10000 = false;
+              }
+
+              return true;
+
+-- Mutation #102 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=allGreaterThan, methodDesc=(I)Z], indexes=[22], mutator=org.pitest.mutationtest.engine.gregor.mutators.returns.BooleanTrueReturnValsMutator], filename=Triplet.java, block=[5], lineNumber=38, description=replaced boolean return with true for Triplet::allGreaterThan, testsInOrder=[]]
+Source:       return this.a > x && this.b > x && this.c > x;
+Mutant:       boolean var10000;
+              if (this.a > x && this.b > x && this.c > x) {
+                 var10000 = true;
+              } else {
+                 var10000 = false;
+              }
+
+              return true;
+
+-- Mutation #103 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=allLessThanEq, methodDesc=(I)Z], indexes=[22], mutator=org.pitest.mutationtest.engine.gregor.mutators.returns.BooleanTrueReturnValsMutator], filename=Triplet.java, block=[5], lineNumber=39, description=replaced boolean return with true for Triplet::allLessThanEq, testsInOrder=[]]
+Source:       return this.a <= x && this.b <= x && this.c <= x;
+Mutant:       boolean var10000;
+              if (this.a <= x && this.b <= x && this.c <= x) {
+                 var10000 = true;
+              } else {
+                 var10000 = false;
+              }
+
+              return true;
+
+-- Mutation #104 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=allGreaterThanEq, methodDesc=(I)Z], indexes=[22], mutator=org.pitest.mutationtest.engine.gregor.mutators.returns.BooleanTrueReturnValsMutator], filename=Triplet.java, block=[5], lineNumber=40, description=replaced boolean return with true for Triplet::allGreaterThanEq, testsInOrder=[]]
+Source:       return this.a >= x && this.b >= x && this.c >= x;
+Mutant:       boolean var10000;
+              if (this.a >= x && this.b >= x && this.c >= x) {
+                 var10000 = true;
+              } else {
+                 var10000 = false;
+              }
+
+              return true;
+
+-- Mutation #105 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=equals, methodDesc=(Ljava/lang/Object;)Z], indexes=[5], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=Triplet.java, block=[0], lineNumber=70, description=negated conditional, testsInOrder=[]]
+Source:       if (other instanceof Triplet) {
+Mutant:       if (!(other instanceof Triplet)) {
+
+-- Mutation #106 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=equals, methodDesc=(Ljava/lang/Object;)Z], indexes=[16], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=Triplet.java, block=[1], lineNumber=69, description=negated conditional, testsInOrder=[]]
+Source:          if (triplet.a == this.a && triplet.b == this.b && triplet.c == this.c) {
+Mutant:          if (triplet.a != this.a && triplet.b == this.b && triplet.c == this.c) {
+
+-- Mutation #107 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=equals, methodDesc=(Ljava/lang/Object;)Z], indexes=[21], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=Triplet.java, block=[2], lineNumber=69, description=negated conditional, testsInOrder=[]]
+Source:          if (triplet.a == this.a && triplet.b == this.b && triplet.c == this.c) {
+Mutant:          if (triplet.a == this.a && triplet.b != this.b && triplet.c == this.c) {
+
+-- Mutation #108 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=equals, methodDesc=(Ljava/lang/Object;)Z], indexes=[26], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=Triplet.java, block=[3], lineNumber=69, description=negated conditional, testsInOrder=[]]
+Source:          if (triplet.a == this.a && triplet.b == this.b && triplet.c == this.c) {
+Mutant:          if (triplet.a == this.a && triplet.b == this.b && triplet.c != this.c) {
+
+-- Mutation #109 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=equals, methodDesc=(Ljava/lang/Object;)Z], indexes=[34], mutator=org.pitest.mutationtest.engine.gregor.mutators.returns.BooleanTrueReturnValsMutator], filename=Triplet.java, block=[6], lineNumber=69, description=replaced boolean return with true for Triplet::equals, testsInOrder=[]]
+Source:             return var10000;
+Mutant:             return true;
+
+-- Mutation #11 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=mul, methodDesc=(I)V], indexes=[16], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator], filename=Triplet.java, block=[0], lineNumber=22, description=removed call to Triplet::set, testsInOrder=[]]
+Source:       this.set(this.a * x, this.b * x, this.c * x);
+Mutant:       int var10001 = this.a * x;
+              int var10002 = this.b * x;
+              int var10003 = this.c * x;
+
+-- Mutation #12 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=div, methodDesc=(I)V], indexes=[7], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator], filename=Triplet.java, block=[0], lineNumber=23, description=Replaced integer division with multiplication, testsInOrder=[]]
+Source:       this.set(this.a / x, this.b / x, this.c / x);
+Mutant:       this.set(this.a * x, this.b / x, this.c / x);
+
+-- Mutation #13 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=div, methodDesc=(I)V], indexes=[11], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator], filename=Triplet.java, block=[0], lineNumber=23, description=Replaced integer division with multiplication, testsInOrder=[]]
+Source:       this.set(this.a / x, this.b / x, this.c / x);
+Mutant:       this.set(this.a / x, this.b * x, this.c / x);
+
+-- Mutation #14 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=div, methodDesc=(I)V], indexes=[15], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator], filename=Triplet.java, block=[0], lineNumber=23, description=Replaced integer division with multiplication, testsInOrder=[]]
+Source:       this.set(this.a / x, this.b / x, this.c / x);
+Mutant:       this.set(this.a / x, this.b / x, this.c * x);
+
+-- Mutation #15 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=div, methodDesc=(I)V], indexes=[16], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator], filename=Triplet.java, block=[0], lineNumber=23, description=removed call to Triplet::set, testsInOrder=[]]
+Source:       this.set(this.a / x, this.b / x, this.c / x);
+Mutant:       int var10001 = this.a / x;
+              int var10002 = this.b / x;
+              int var10003 = this.c / x;
+
+-- Mutation #16 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=mod, methodDesc=(I)V], indexes=[7], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator], filename=Triplet.java, block=[0], lineNumber=24, description=Replaced integer modulus with multiplication, testsInOrder=[]]
+Source:       this.set(this.a % x, this.b % x, this.c % x);
+Mutant:       this.set(this.a * x, this.b % x, this.c % x);
+
+-- Mutation #17 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=mod, methodDesc=(I)V], indexes=[11], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator], filename=Triplet.java, block=[0], lineNumber=24, description=Replaced integer modulus with multiplication, testsInOrder=[]]
+Source:       this.set(this.a % x, this.b % x, this.c % x);
+Mutant:       this.set(this.a % x, this.b * x, this.c % x);
+
+-- Mutation #18 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=mod, methodDesc=(I)V], indexes=[15], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator], filename=Triplet.java, block=[0], lineNumber=24, description=Replaced integer modulus with multiplication, testsInOrder=[]]
+Source:       this.set(this.a % x, this.b % x, this.c % x);
+Mutant:       this.set(this.a % x, this.b % x, this.c * x);
+
+-- Mutation #19 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=mod, methodDesc=(I)V], indexes=[16], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator], filename=Triplet.java, block=[0], lineNumber=24, description=removed call to Triplet::set, testsInOrder=[]]
+Source:       this.set(this.a % x, this.b % x, this.c % x);
+Mutant:       int var10001 = this.a % x;
+              int var10002 = this.b % x;
+              int var10003 = this.c % x;
+
+-- Mutation #2 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=add, methodDesc=(I)V], indexes=[15], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator], filename=Triplet.java, block=[0], lineNumber=20, description=Replaced integer addition with subtraction, testsInOrder=[]]
+Source:       this.set(this.a + x, this.b + x, this.c + x);
+Mutant:       this.set(this.a + x, this.b + x, this.c - x);
+
+-- Mutation #20 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=and, methodDesc=(I)V], indexes=[7], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator], filename=Triplet.java, block=[0], lineNumber=25, description=Replaced bitwise AND with OR, testsInOrder=[]]
+Source:       this.set(this.a & x, this.b & x, this.c & x);
+Mutant:       this.set(this.a | x, this.b & x, this.c & x);
+
+-- Mutation #21 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=and, methodDesc=(I)V], indexes=[11], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator], filename=Triplet.java, block=[0], lineNumber=25, description=Replaced bitwise AND with OR, testsInOrder=[]]
+Source:       this.set(this.a & x, this.b & x, this.c & x);
+Mutant:       this.set(this.a & x, this.b | x, this.c & x);
+
+-- Mutation #22 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=and, methodDesc=(I)V], indexes=[15], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator], filename=Triplet.java, block=[0], lineNumber=25, description=Replaced bitwise AND with OR, testsInOrder=[]]
+Source:       this.set(this.a & x, this.b & x, this.c & x);
+Mutant:       this.set(this.a & x, this.b & x, this.c | x);
+
+-- Mutation #23 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=and, methodDesc=(I)V], indexes=[16], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator], filename=Triplet.java, block=[0], lineNumber=25, description=removed call to Triplet::set, testsInOrder=[]]
+Source:       this.set(this.a & x, this.b & x, this.c & x);
+Mutant:       int var10001 = this.a & x;
+              int var10002 = this.b & x;
+              int var10003 = this.c & x;
+
+-- Mutation #24 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=or, methodDesc=(I)V], indexes=[7], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator], filename=Triplet.java, block=[0], lineNumber=26, description=Replaced bitwise OR with AND, testsInOrder=[]]
+Source:       this.set(this.a | x, this.b | x, this.c | x);
+Mutant:       this.set(this.a & x, this.b | x, this.c | x);
+
+-- Mutation #25 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=or, methodDesc=(I)V], indexes=[11], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator], filename=Triplet.java, block=[0], lineNumber=26, description=Replaced bitwise OR with AND, testsInOrder=[]]
+Source:       this.set(this.a | x, this.b | x, this.c | x);
+Mutant:       this.set(this.a | x, this.b & x, this.c | x);
+
+-- Mutation #26 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=or, methodDesc=(I)V], indexes=[15], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator], filename=Triplet.java, block=[0], lineNumber=26, description=Replaced bitwise OR with AND, testsInOrder=[]]
+Source:       this.set(this.a | x, this.b | x, this.c | x);
+Mutant:       this.set(this.a | x, this.b | x, this.c & x);
+
+-- Mutation #27 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=or, methodDesc=(I)V], indexes=[16], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator], filename=Triplet.java, block=[0], lineNumber=26, description=removed call to Triplet::set, testsInOrder=[]]
+Source:       this.set(this.a | x, this.b | x, this.c | x);
+Mutant:       int var10001 = this.a | x;
+              int var10002 = this.b | x;
+              int var10003 = this.c | x;
+
+-- Mutation #28 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=xor, methodDesc=(I)V], indexes=[7], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator], filename=Triplet.java, block=[0], lineNumber=27, description=Replaced XOR with AND, testsInOrder=[]]
+Source:       this.set(this.a ^ x, this.b ^ x, this.c ^ x);
+Mutant:       this.set(this.a & x, this.b ^ x, this.c ^ x);
+
+-- Mutation #29 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=xor, methodDesc=(I)V], indexes=[11], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator], filename=Triplet.java, block=[0], lineNumber=27, description=Replaced XOR with AND, testsInOrder=[]]
+Source:       this.set(this.a ^ x, this.b ^ x, this.c ^ x);
+Mutant:       this.set(this.a ^ x, this.b & x, this.c ^ x);
+
+-- Mutation #3 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=add, methodDesc=(I)V], indexes=[16], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator], filename=Triplet.java, block=[0], lineNumber=20, description=removed call to Triplet::set, testsInOrder=[]]
+Source:       this.set(this.a + x, this.b + x, this.c + x);
+Mutant:       int var10001 = this.a + x;
+              int var10002 = this.b + x;
+              int var10003 = this.c + x;
+
+-- Mutation #30 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=xor, methodDesc=(I)V], indexes=[15], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator], filename=Triplet.java, block=[0], lineNumber=27, description=Replaced XOR with AND, testsInOrder=[]]
+Source:       this.set(this.a ^ x, this.b ^ x, this.c ^ x);
+Mutant:       this.set(this.a ^ x, this.b ^ x, this.c & x);
+
+-- Mutation #31 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=xor, methodDesc=(I)V], indexes=[16], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator], filename=Triplet.java, block=[0], lineNumber=27, description=removed call to Triplet::set, testsInOrder=[]]
+Source:       this.set(this.a ^ x, this.b ^ x, this.c ^ x);
+Mutant:       int var10001 = this.a ^ x;
+              int var10002 = this.b ^ x;
+              int var10003 = this.c ^ x;
+
+-- Mutation #32 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=shl, methodDesc=(I)V], indexes=[7], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator], filename=Triplet.java, block=[0], lineNumber=28, description=Replaced Shift Left with Shift Right, testsInOrder=[]]
+Source:       this.set(this.a << x, this.b << x, this.c << x);
+Mutant:       this.set(this.a >> x, this.b << x, this.c << x);
+
+-- Mutation #33 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=shl, methodDesc=(I)V], indexes=[11], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator], filename=Triplet.java, block=[0], lineNumber=28, description=Replaced Shift Left with Shift Right, testsInOrder=[]]
+Source:       this.set(this.a << x, this.b << x, this.c << x);
+Mutant:       this.set(this.a << x, this.b >> x, this.c << x);
+
+-- Mutation #34 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=shl, methodDesc=(I)V], indexes=[15], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator], filename=Triplet.java, block=[0], lineNumber=28, description=Replaced Shift Left with Shift Right, testsInOrder=[]]
+Source:       this.set(this.a << x, this.b << x, this.c << x);
+Mutant:       this.set(this.a << x, this.b << x, this.c >> x);
+
+-- Mutation #35 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=shl, methodDesc=(I)V], indexes=[16], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator], filename=Triplet.java, block=[0], lineNumber=28, description=removed call to Triplet::set, testsInOrder=[]]
+Source:       this.set(this.a << x, this.b << x, this.c << x);
+Mutant:       int var10001 = this.a << x;
+              int var10002 = this.b << x;
+              int var10003 = this.c << x;
+
+-- Mutation #36 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=shr, methodDesc=(I)V], indexes=[7], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator], filename=Triplet.java, block=[0], lineNumber=29, description=Replaced Unsigned Shift Right with Shift Left, testsInOrder=[]]
+Source:       this.set(this.a >>> x, this.b >>> x, this.c >>> x);
+Mutant:       this.set(this.a << x, this.b >>> x, this.c >>> x);
+
+-- Mutation #37 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=shr, methodDesc=(I)V], indexes=[11], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator], filename=Triplet.java, block=[0], lineNumber=29, description=Replaced Unsigned Shift Right with Shift Left, testsInOrder=[]]
+Source:       this.set(this.a >>> x, this.b >>> x, this.c >>> x);
+Mutant:       this.set(this.a >>> x, this.b << x, this.c >>> x);
+
+-- Mutation #38 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=shr, methodDesc=(I)V], indexes=[15], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator], filename=Triplet.java, block=[0], lineNumber=29, description=Replaced Unsigned Shift Right with Shift Left, testsInOrder=[]]
+Source:       this.set(this.a >>> x, this.b >>> x, this.c >>> x);
+Mutant:       this.set(this.a >>> x, this.b >>> x, this.c << x);
+
+-- Mutation #39 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=shr, methodDesc=(I)V], indexes=[16], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator], filename=Triplet.java, block=[0], lineNumber=29, description=removed call to Triplet::set, testsInOrder=[]]
+Source:       this.set(this.a >>> x, this.b >>> x, this.c >>> x);
+Mutant:       int var10001 = this.a >>> x;
+              int var10002 = this.b >>> x;
+              int var10003 = this.c >>> x;
+
+-- Mutation #4 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=sub, methodDesc=(I)V], indexes=[7], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator], filename=Triplet.java, block=[0], lineNumber=21, description=Replaced integer subtraction with addition, testsInOrder=[]]
+Source:       this.set(this.a - x, this.b - x, this.c - x);
+Mutant:       this.set(this.a + x, this.b - x, this.c - x);
+
+-- Mutation #40 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=negate, methodDesc=()V], indexes=[6], mutator=org.pitest.mutationtest.engine.gregor.mutators.InvertNegsMutator], filename=Triplet.java, block=[0], lineNumber=32, description=removed negation, testsInOrder=[]]
+Source:       this.set(-this.a, -this.b, -this.c);
+Mutant:       this.set(this.a, -this.b, -this.c);
+
+-- Mutation #41 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=negate, methodDesc=()V], indexes=[9], mutator=org.pitest.mutationtest.engine.gregor.mutators.InvertNegsMutator], filename=Triplet.java, block=[0], lineNumber=32, description=removed negation, testsInOrder=[]]
+Source:       this.set(-this.a, -this.b, -this.c);
+Mutant:       this.set(-this.a, this.b, -this.c);
+
+-- Mutation #42 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=negate, methodDesc=()V], indexes=[12], mutator=org.pitest.mutationtest.engine.gregor.mutators.InvertNegsMutator], filename=Triplet.java, block=[0], lineNumber=32, description=removed negation, testsInOrder=[]]
+Source:       this.set(-this.a, -this.b, -this.c);
+Mutant:       this.set(-this.a, -this.b, this.c);
+
+-- Mutation #43 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=negate, methodDesc=()V], indexes=[13], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator], filename=Triplet.java, block=[0], lineNumber=32, description=removed call to Triplet::set, testsInOrder=[]]
+Source:       this.set(-this.a, -this.b, -this.c);
+Mutant:       int var10001 = -this.a;
+              int var10002 = -this.b;
+              int var10003 = -this.c;
+
+-- Mutation #44 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=allEq, methodDesc=(I)Z], indexes=[6], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=Triplet.java, block=[0], lineNumber=35, description=negated conditional, testsInOrder=[]]
+Source:       return this.a == x && this.b == x && this.c == x;
+Mutant:       return this.a != x && this.b == x && this.c == x;
+
+-- Mutation #45 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=allEq, methodDesc=(I)Z], indexes=[10], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=Triplet.java, block=[1], lineNumber=35, description=negated conditional, testsInOrder=[]]
+Source:       return this.a == x && this.b == x && this.c == x;
+Mutant:       return this.a == x && this.b != x && this.c == x;
+
+-- Mutation #46 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=allEq, methodDesc=(I)Z], indexes=[14], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=Triplet.java, block=[2], lineNumber=35, description=negated conditional, testsInOrder=[]]
+Source:       return this.a == x && this.b == x && this.c == x;
+Mutant:       return this.a == x && this.b == x && this.c != x;
+
+-- Mutation #47 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=anyNotEq, methodDesc=(I)Z], indexes=[6], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=Triplet.java, block=[0], lineNumber=36, description=negated conditional, testsInOrder=[]]
+Source:       return this.a != x || this.b != x || this.c != x;
+Mutant:       return this.a == x || this.b != x || this.c != x;
+
+-- Mutation #48 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=anyNotEq, methodDesc=(I)Z], indexes=[10], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=Triplet.java, block=[1], lineNumber=36, description=negated conditional, testsInOrder=[]]
+Source:       return this.a != x || this.b != x || this.c != x;
+Mutant:       return this.a != x || this.b == x || this.c != x;
+
+-- Mutation #49 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=anyNotEq, methodDesc=(I)Z], indexes=[14], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=Triplet.java, block=[2], lineNumber=36, description=negated conditional, testsInOrder=[]]
+Source:       return this.a != x || this.b != x || this.c != x;
+Mutant:       return this.a != x || this.b != x || this.c == x;
+
+-- Mutation #5 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=sub, methodDesc=(I)V], indexes=[11], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator], filename=Triplet.java, block=[0], lineNumber=21, description=Replaced integer subtraction with addition, testsInOrder=[]]
+Source:       this.set(this.a - x, this.b - x, this.c - x);
+Mutant:       this.set(this.a - x, this.b + x, this.c - x);
+
+-- Mutation #50 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=allLessThan, methodDesc=(I)Z], indexes=[6], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=Triplet.java, block=[0], lineNumber=37, description=negated conditional, testsInOrder=[]]
+Source:       return this.a < x && this.b < x && this.c < x;
+Mutant:       return this.a >= x && this.b < x && this.c < x;
+
+-- Mutation #51 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=allLessThan, methodDesc=(I)Z], indexes=[6], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator], filename=Triplet.java, block=[0], lineNumber=37, description=changed conditional boundary, testsInOrder=[]]
+Source:       return this.a < x && this.b < x && this.c < x;
+Mutant:       return this.a <= x && this.b < x && this.c < x;
+
+-- Mutation #52 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=allLessThan, methodDesc=(I)Z], indexes=[10], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=Triplet.java, block=[1], lineNumber=37, description=negated conditional, testsInOrder=[]]
+Source:       return this.a < x && this.b < x && this.c < x;
+Mutant:       return this.a < x && this.b >= x && this.c < x;
+
+-- Mutation #53 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=allLessThan, methodDesc=(I)Z], indexes=[10], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator], filename=Triplet.java, block=[1], lineNumber=37, description=changed conditional boundary, testsInOrder=[]]
+Source:       return this.a < x && this.b < x && this.c < x;
+Mutant:       return this.a < x && this.b <= x && this.c < x;
+
+-- Mutation #54 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=allLessThan, methodDesc=(I)Z], indexes=[14], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=Triplet.java, block=[2], lineNumber=37, description=negated conditional, testsInOrder=[]]
+Source:       return this.a < x && this.b < x && this.c < x;
+Mutant:       return this.a < x && this.b < x && this.c >= x;
+
+-- Mutation #55 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=allLessThan, methodDesc=(I)Z], indexes=[14], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator], filename=Triplet.java, block=[2], lineNumber=37, description=changed conditional boundary, testsInOrder=[]]
+Source:       return this.a < x && this.b < x && this.c < x;
+Mutant:       return this.a < x && this.b < x && this.c <= x;
+
+-- Mutation #56 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=allGreaterThan, methodDesc=(I)Z], indexes=[6], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=Triplet.java, block=[0], lineNumber=38, description=negated conditional, testsInOrder=[]]
+Source:       return this.a > x && this.b > x && this.c > x;
+Mutant:       return this.a <= x && this.b > x && this.c > x;
+
+-- Mutation #57 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=allGreaterThan, methodDesc=(I)Z], indexes=[6], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator], filename=Triplet.java, block=[0], lineNumber=38, description=changed conditional boundary, testsInOrder=[]]
+Source:       return this.a > x && this.b > x && this.c > x;
+Mutant:       return this.a >= x && this.b > x && this.c > x;
+
+-- Mutation #58 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=allGreaterThan, methodDesc=(I)Z], indexes=[10], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=Triplet.java, block=[1], lineNumber=38, description=negated conditional, testsInOrder=[]]
+Source:       return this.a > x && this.b > x && this.c > x;
+Mutant:       return this.a > x && this.b <= x && this.c > x;
+
+-- Mutation #59 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=allGreaterThan, methodDesc=(I)Z], indexes=[10], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator], filename=Triplet.java, block=[1], lineNumber=38, description=changed conditional boundary, testsInOrder=[]]
+Source:       return this.a > x && this.b > x && this.c > x;
+Mutant:       return this.a > x && this.b >= x && this.c > x;
+
+-- Mutation #6 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=sub, methodDesc=(I)V], indexes=[15], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator], filename=Triplet.java, block=[0], lineNumber=21, description=Replaced integer subtraction with addition, testsInOrder=[]]
+Source:       this.set(this.a - x, this.b - x, this.c - x);
+Mutant:       this.set(this.a - x, this.b - x, this.c + x);
+
+-- Mutation #60 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=allGreaterThan, methodDesc=(I)Z], indexes=[14], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=Triplet.java, block=[2], lineNumber=38, description=negated conditional, testsInOrder=[]]
+Source:       return this.a > x && this.b > x && this.c > x;
+Mutant:       return this.a > x && this.b > x && this.c <= x;
+
+-- Mutation #61 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=allGreaterThan, methodDesc=(I)Z], indexes=[14], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator], filename=Triplet.java, block=[2], lineNumber=38, description=changed conditional boundary, testsInOrder=[]]
+Source:       return this.a > x && this.b > x && this.c > x;
+Mutant:       return this.a > x && this.b > x && this.c >= x;
+
+-- Mutation #62 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=allLessThanEq, methodDesc=(I)Z], indexes=[6], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=Triplet.java, block=[0], lineNumber=39, description=negated conditional, testsInOrder=[]]
+Source:       return this.a <= x && this.b <= x && this.c <= x;
+Mutant:       return this.a > x && this.b <= x && this.c <= x;
+
+-- Mutation #63 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=allLessThanEq, methodDesc=(I)Z], indexes=[6], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator], filename=Triplet.java, block=[0], lineNumber=39, description=changed conditional boundary, testsInOrder=[]]
+Source:       return this.a <= x && this.b <= x && this.c <= x;
+Mutant:       return this.a < x && this.b <= x && this.c <= x;
+
+-- Mutation #64 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=allLessThanEq, methodDesc=(I)Z], indexes=[10], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=Triplet.java, block=[1], lineNumber=39, description=negated conditional, testsInOrder=[]]
+Source:       return this.a <= x && this.b <= x && this.c <= x;
+Mutant:       return this.a <= x && this.b > x && this.c <= x;
+
+-- Mutation #65 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=allLessThanEq, methodDesc=(I)Z], indexes=[10], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator], filename=Triplet.java, block=[1], lineNumber=39, description=changed conditional boundary, testsInOrder=[]]
+Source:       return this.a <= x && this.b <= x && this.c <= x;
+Mutant:       return this.a <= x && this.b < x && this.c <= x;
+
+-- Mutation #66 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=allLessThanEq, methodDesc=(I)Z], indexes=[14], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=Triplet.java, block=[2], lineNumber=39, description=negated conditional, testsInOrder=[]]
+Source:       return this.a <= x && this.b <= x && this.c <= x;
+Mutant:       return this.a <= x && this.b <= x && this.c > x;
+
+-- Mutation #67 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=allLessThanEq, methodDesc=(I)Z], indexes=[14], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator], filename=Triplet.java, block=[2], lineNumber=39, description=changed conditional boundary, testsInOrder=[]]
+Source:       return this.a <= x && this.b <= x && this.c <= x;
+Mutant:       return this.a <= x && this.b <= x && this.c < x;
+
+-- Mutation #68 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=allGreaterThanEq, methodDesc=(I)Z], indexes=[6], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=Triplet.java, block=[0], lineNumber=40, description=negated conditional, testsInOrder=[]]
+Source:       return this.a >= x && this.b >= x && this.c >= x;
+Mutant:       return this.a < x && this.b >= x && this.c >= x;
+
+-- Mutation #69 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=allGreaterThanEq, methodDesc=(I)Z], indexes=[6], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator], filename=Triplet.java, block=[0], lineNumber=40, description=changed conditional boundary, testsInOrder=[]]
+Source:       return this.a >= x && this.b >= x && this.c >= x;
+Mutant:       return this.a > x && this.b >= x && this.c >= x;
+
+-- Mutation #7 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=sub, methodDesc=(I)V], indexes=[16], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator], filename=Triplet.java, block=[0], lineNumber=21, description=removed call to Triplet::set, testsInOrder=[]]
+Source:       this.set(this.a - x, this.b - x, this.c - x);
+Mutant:       int var10001 = this.a - x;
+              int var10002 = this.b - x;
+              int var10003 = this.c - x;
+
+-- Mutation #70 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=allGreaterThanEq, methodDesc=(I)Z], indexes=[10], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=Triplet.java, block=[1], lineNumber=40, description=negated conditional, testsInOrder=[]]
+Source:       return this.a >= x && this.b >= x && this.c >= x;
+Mutant:       return this.a >= x && this.b < x && this.c >= x;
+
+-- Mutation #71 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=allGreaterThanEq, methodDesc=(I)Z], indexes=[10], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator], filename=Triplet.java, block=[1], lineNumber=40, description=changed conditional boundary, testsInOrder=[]]
+Source:       return this.a >= x && this.b >= x && this.c >= x;
+Mutant:       return this.a >= x && this.b > x && this.c >= x;
+
+-- Mutation #72 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=allGreaterThanEq, methodDesc=(I)Z], indexes=[14], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=Triplet.java, block=[2], lineNumber=40, description=negated conditional, testsInOrder=[]]
+Source:       return this.a >= x && this.b >= x && this.c >= x;
+Mutant:       return this.a >= x && this.b >= x && this.c < x;
+
+-- Mutation #73 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=allGreaterThanEq, methodDesc=(I)Z], indexes=[14], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator], filename=Triplet.java, block=[2], lineNumber=40, description=changed conditional boundary, testsInOrder=[]]
+Source:       return this.a >= x && this.b >= x && this.c >= x;
+Mutant:       return this.a >= x && this.b >= x && this.c > x;
+
+-- Mutation #74 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=max, methodDesc=()I], indexes=[7], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=Triplet.java, block=[0], lineNumber=44, description=negated conditional, testsInOrder=[]]
+Source:       if (this.a > this.b && this.a > this.c) {
+Mutant:       if (this.a <= this.b && this.a > this.c) {
+
+-- Mutation #75 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=max, methodDesc=()I], indexes=[7], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator], filename=Triplet.java, block=[0], lineNumber=44, description=changed conditional boundary, testsInOrder=[]]
+Source:       if (this.a > this.b && this.a > this.c) {
+Mutant:       if (this.a >= this.b && this.a > this.c) {
+
+-- Mutation #76 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=max, methodDesc=()I], indexes=[12], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=Triplet.java, block=[1], lineNumber=44, description=negated conditional, testsInOrder=[]]
+Source:       if (this.a > this.b && this.a > this.c) {
+Mutant:       if (this.a > this.b && this.a <= this.c) {
+
+-- Mutation #77 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=max, methodDesc=()I], indexes=[12], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator], filename=Triplet.java, block=[1], lineNumber=44, description=changed conditional boundary, testsInOrder=[]]
+Source:       if (this.a > this.b && this.a > this.c) {
+Mutant:       if (this.a > this.b && this.a >= this.c) {
+
+-- Mutation #78 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=max, methodDesc=()I], indexes=[23], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=Triplet.java, block=[3], lineNumber=45, description=negated conditional, testsInOrder=[]]
+Source:          return this.c <= this.b && this.a <= this.b ? this.b : this.c;
+Mutant:          return this.c > this.b && this.a <= this.b ? this.b : this.c;
+
+-- Mutation #79 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=max, methodDesc=()I], indexes=[23], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator], filename=Triplet.java, block=[3], lineNumber=45, description=changed conditional boundary, testsInOrder=[]]
+Source:          return this.c <= this.b && this.a <= this.b ? this.b : this.c;
+Mutant:          return this.c < this.b && this.a <= this.b ? this.b : this.c;
+
+-- Mutation #8 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=mul, methodDesc=(I)V], indexes=[7], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator], filename=Triplet.java, block=[0], lineNumber=22, description=Replaced integer multiplication with division, testsInOrder=[]]
+Source:       this.set(this.a * x, this.b * x, this.c * x);
+Mutant:       this.set(this.a / x, this.b * x, this.c * x);
+
+-- Mutation #80 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=max, methodDesc=()I], indexes=[28], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=Triplet.java, block=[4], lineNumber=45, description=negated conditional, testsInOrder=[]]
+Source:          return this.c <= this.b && this.a <= this.b ? this.b : this.c;
+Mutant:          return this.c <= this.b && this.a > this.b ? this.b : this.c;
+
+-- Mutation #81 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=max, methodDesc=()I], indexes=[28], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator], filename=Triplet.java, block=[4], lineNumber=45, description=changed conditional boundary, testsInOrder=[]]
+Source:          return this.c <= this.b && this.a <= this.b ? this.b : this.c;
+Mutant:          return this.c <= this.b && this.a < this.b ? this.b : this.c;
+
+-- Mutation #82 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=min, methodDesc=()I], indexes=[7], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=Triplet.java, block=[0], lineNumber=49, description=negated conditional, testsInOrder=[]]
+Source:       if (this.a <= this.b && this.a <= this.c) {
+Mutant:       if (this.a > this.b && this.a <= this.c) {
+
+-- Mutation #83 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=min, methodDesc=()I], indexes=[7], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator], filename=Triplet.java, block=[0], lineNumber=49, description=changed conditional boundary, testsInOrder=[]]
+Source:       if (this.a <= this.b && this.a <= this.c) {
+Mutant:       if (this.a < this.b && this.a <= this.c) {
+
+-- Mutation #84 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=min, methodDesc=()I], indexes=[12], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=Triplet.java, block=[1], lineNumber=49, description=negated conditional, testsInOrder=[]]
+Source:       if (this.a <= this.b && this.a <= this.c) {
+Mutant:       if (this.a <= this.b && this.a > this.c) {
+
+-- Mutation #85 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=min, methodDesc=()I], indexes=[12], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator], filename=Triplet.java, block=[1], lineNumber=49, description=changed conditional boundary, testsInOrder=[]]
+Source:       if (this.a <= this.b && this.a <= this.c) {
+Mutant:       if (this.a <= this.b && this.a < this.c) {
+
+-- Mutation #86 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=min, methodDesc=()I], indexes=[23], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=Triplet.java, block=[3], lineNumber=50, description=negated conditional, testsInOrder=[]]
+Source:          return this.c > this.b && this.a > this.b ? this.b : this.c;
+Mutant:          return this.c <= this.b && this.a > this.b ? this.b : this.c;
+
+-- Mutation #87 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=min, methodDesc=()I], indexes=[23], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator], filename=Triplet.java, block=[3], lineNumber=50, description=changed conditional boundary, testsInOrder=[]]
+Source:          return this.c > this.b && this.a > this.b ? this.b : this.c;
+Mutant:          return this.c >= this.b && this.a > this.b ? this.b : this.c;
+
+-- Mutation #88 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=min, methodDesc=()I], indexes=[28], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=Triplet.java, block=[4], lineNumber=50, description=negated conditional, testsInOrder=[]]
+Source:          return this.c > this.b && this.a > this.b ? this.b : this.c;
+Mutant:          return this.c > this.b && this.a <= this.b ? this.b : this.c;
+
+-- Mutation #89 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=min, methodDesc=()I], indexes=[28], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator], filename=Triplet.java, block=[4], lineNumber=50, description=changed conditional boundary, testsInOrder=[]]
+Source:          return this.c > this.b && this.a > this.b ? this.b : this.c;
+Mutant:          return this.c > this.b && this.a >= this.b ? this.b : this.c;
+
+-- Mutation #9 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=mul, methodDesc=(I)V], indexes=[11], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator], filename=Triplet.java, block=[0], lineNumber=22, description=Replaced integer multiplication with division, testsInOrder=[]]
+Source:       this.set(this.a * x, this.b * x, this.c * x);
+Mutant:       this.set(this.a * x, this.b / x, this.c * x);
+
+-- Mutation #90 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=abs, methodDesc=()V], indexes=[13], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator], filename=Triplet.java, block=[3], lineNumber=56, description=removed call to Triplet::set, testsInOrder=[]]
+Source:       this.set(Math.abs(this.a), Math.abs(this.b), Math.abs(this.c));
+Mutant:       Math.abs(this.a);
+              Math.abs(this.b);
+              Math.abs(this.c);
+
+-- Mutation #91 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=max, methodDesc=()I], indexes=[15], mutator=org.pitest.mutationtest.engine.gregor.mutators.returns.PrimitiveReturnsMutator], filename=Triplet.java, block=[2], lineNumber=44, description=replaced int return with 0 for Triplet::max, testsInOrder=[]]
+Source:          return this.a;
+Mutant:          int var10000 = this.a;
+                 return 0;
+
+-- Mutation #92 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=max, methodDesc=()I], indexes=[31], mutator=org.pitest.mutationtest.engine.gregor.mutators.returns.PrimitiveReturnsMutator], filename=Triplet.java, block=[5], lineNumber=45, description=replaced int return with 0 for Triplet::max, testsInOrder=[]]
+Source:       } else {
+Mutant:       } else if (this.c <= this.b && this.a <= this.b) {
+                 int var10000 = this.b;
+                 return 0;
+              } else {
+
+-- Mutation #93 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=max, methodDesc=()I], indexes=[37], mutator=org.pitest.mutationtest.engine.gregor.mutators.returns.PrimitiveReturnsMutator], filename=Triplet.java, block=[6], lineNumber=46, description=replaced int return with 0 for Triplet::max, testsInOrder=[]]
+Source:       } else {
+Mutant:       } else if (this.c <= this.b && this.a <= this.b) {
+                 return this.b;
+              } else {
+                 int var10000 = this.c;
+
+-- Mutation #94 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=min, methodDesc=()I], indexes=[15], mutator=org.pitest.mutationtest.engine.gregor.mutators.returns.PrimitiveReturnsMutator], filename=Triplet.java, block=[2], lineNumber=49, description=replaced int return with 0 for Triplet::min, testsInOrder=[]]
+Source:          return this.a;
+Mutant:          int var10000 = this.a;
+                 return 0;
+
+-- Mutation #95 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=min, methodDesc=()I], indexes=[31], mutator=org.pitest.mutationtest.engine.gregor.mutators.returns.PrimitiveReturnsMutator], filename=Triplet.java, block=[5], lineNumber=50, description=replaced int return with 0 for Triplet::min, testsInOrder=[]]
+Source:       } else {
+Mutant:       } else if (this.c > this.b && this.a > this.b) {
+                 int var10000 = this.b;
+                 return 0;
+              } else {
+
+-- Mutation #96 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=min, methodDesc=()I], indexes=[37], mutator=org.pitest.mutationtest.engine.gregor.mutators.returns.PrimitiveReturnsMutator], filename=Triplet.java, block=[6], lineNumber=51, description=replaced int return with 0 for Triplet::min, testsInOrder=[]]
+Source:       } else {
+Mutant:       } else if (this.c > this.b && this.a > this.b) {
+                 return this.b;
+              } else {
+                 int var10000 = this.c;
+
+-- Mutation #97 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=newTriplet, methodDesc=(III)LTriplet;], indexes=[13], mutator=org.pitest.mutationtest.engine.gregor.mutators.returns.NullReturnValsMutator], filename=Triplet.java, block=[1], lineNumber=16, description=replaced return value with null for Triplet::newTriplet, testsInOrder=[]]
+Source:       return triplet;
+Mutant:       return null;
+
+-- Mutation #98 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=toString, methodDesc=()Ljava/lang/String;], indexes=[25], mutator=org.pitest.mutationtest.engine.gregor.mutators.returns.EmptyObjectReturnValsMutator], filename=Triplet.java, block=[4], lineNumber=75, description=replaced return value with "" for Triplet::toString, testsInOrder=[]]
+Source:       return String.format("Triplet(%d, %d, %d)", this.a, this.b, this.c);
+Mutant:       String.format("Triplet(%d, %d, %d)", this.a, this.b, this.c);
+              return "";
+
+-- Mutation #99 --
+MutationDetails [id=MutationIdentifier [location=Location [clazz=Triplet, method=allEq, methodDesc=(I)Z], indexes=[22], mutator=org.pitest.mutationtest.engine.gregor.mutators.returns.BooleanTrueReturnValsMutator], filename=Triplet.java, block=[5], lineNumber=35, description=replaced boolean return with true for Triplet::allEq, testsInOrder=[]]
+Source:       return this.a == x && this.b == x && this.c == x;
+Mutant:       boolean var10000;
+              if (this.a == x && this.b == x && this.c == x) {
+                 var10000 = true;
+              } else {
+                 var10000 = false;
+              }
+
+              return true;

@@ -1,0 +1,29 @@
+<application>
+  <component name="DimensionService">
+    <size key="GridCell.Tab.0.left.0.0.1920.1080@120dpi" width="1894" height="298" />
+    <size key="GridCell.Tab.0.center.0.0.1920.1080@120dpi" width="1894" height="298" />
+    <size key="GridCell.Tab.0.right.0.0.1920.1080@120dpi" width="1894" height="298" />
+    <size key="GridCell.Tab.0.bottom.0.0.1920.1080@120dpi" width="1894" height="298" />
+  </component>
+  <component name="WindowManager">
+    <frame x="-9" y="-9" width="1938" height="1038" extendedState="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+    </layout>
+  </component>
+  <component name="WindowStateApplicationService">
+    <state x="768" y="372" width="800" height="600" key="WELCOME_SCREEN" timestamp="1666038376252">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="768" y="372" width="800" height="600" key="WELCOME_SCREEN/0.0.1536.816" timestamp="1666038376252" />
+    <state x="360" y="0" key="new project wizard" timestamp="1666038388848">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="360" y="0" key="new project wizard/0.0.1536.816" timestamp="1666038388848" />
+  </component>
+</application>

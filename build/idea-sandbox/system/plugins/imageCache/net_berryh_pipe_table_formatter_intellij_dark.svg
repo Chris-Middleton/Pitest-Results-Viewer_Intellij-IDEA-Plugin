@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="40"
+   height="40"
+   viewBox="0 0 10.583333 10.583334"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="PluginIcon.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:document-units="px"
+     showgrid="false"
+     units="px"
+     inkscape:zoom="12.443434"
+     inkscape:cx="-8.237276"
+     inkscape:cy="15.309279"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="2552"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Black Icon"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.92885px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.210473"
+       x="1.6006964"
+       y="6.7199035"
+       id="text891"><tspan
+         sodipodi:role="line"
+         id="tspan889"
+         style="font-size:3.92885px;stroke-width:0.210473"
+         x="1.6006964"
+         y="6.7199035">PTF</tspan></text>
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.334675;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect22993"
+       width="0.52916664"
+       height="9.5249996"
+       x="0.52916664"
+       y="0.52916664" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.334675;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect22993-0"
+       width="0.52916664"
+       height="9.5249996"
+       x="9.5249996"
+       y="0.52916664" />
+  </g>
+  <g
+     inkscape:label="White Icon"
+     inkscape:groupmode="layer"
+     id="g23551"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.92885px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.210473"
+       x="1.6006964"
+       y="6.7199035"
+       id="text23545"><tspan
+         sodipodi:role="line"
+         id="tspan23543"
+         style="font-size:3.92885px;fill:#ffffff;fill-opacity:1;stroke-width:0.210473"
+         x="1.6006964"
+         y="6.7199035">PTF</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.334675;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect23547"
+       width="0.52916664"
+       height="9.5249996"
+       x="0.52916664"
+       y="0.52916664" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.334675;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect23549"
+       width="0.52916664"
+       height="9.5249996"
+       x="9.5249996"
+       y="0.52916664" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Border"
+     style="display:none">
+    <rect
+       id="rect21876"
+       width="10.067381"
+       height="10.06738"
+       x="0.2579762"
+       y="0.25797668"
+       style="fill:none;stroke:#ff0000;stroke-width:0.515953;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+</svg>
